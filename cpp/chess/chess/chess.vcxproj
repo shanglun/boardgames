@@ -64,7 +64,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="boardutils.cpp" />
+    <ClCompile Include="castling.cpp" />
     <ClCompile Include="chesscpp.cpp" />
+    <ClCompile Include="rules.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="boardutils.h" />
+    <ClInclude Include="castling.h" />
+    <ClInclude Include="rules.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
